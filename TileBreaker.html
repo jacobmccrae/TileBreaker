@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project - Tile Breaker</title>
+		<meta charset="UTF-8">
+		<script src="TileBreaker.js" defer></script>
+        <link rel="stylesheet" href="TileBreaker.css">
+	</head>
+	<body onload="gameSetup()" onclick="playGame()">
+        <div id="wrapper">
+            <div id="header">
+                <h1>Tile Breaker</h1>
+                <div id="gameDetails"></div>
+                <div id="gameResults"></div>
+            </div>
+            <div id="canvasWrapper" onmousemove="actionForMouse(event)">
+                <canvas id="canvas" width="1000px" height="500px"></canvas>
+            </div>
+        </div>
+	</body>
+</html>
