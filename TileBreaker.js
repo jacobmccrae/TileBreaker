@@ -1,6 +1,5 @@
 // Project - Tile Breaker
 // Jacob McCrae
-// 100199022
 // 04.03.2016
 
 /*jslint white: true */
